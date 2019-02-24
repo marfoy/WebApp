@@ -1,0 +1,29 @@
+"python manage.py startapp articles"
+then add article in setting.py
+and add also rest_framwork
+
+create a de article model in models.py
+and migrate with
+"python manage.py makemigrations"
+"python manage.py migrate"
+
+
+FRONT END
+install ant design with 
+"npm install antd --save"
+
+start front end with "npm start"
+
+create components and containers folder.
+
+Put the js code grab from antd website with the frontend code for a "layout" here
+in a Layout.js file in the containers foler.
+encapsulate the code with a :
+const CustomLayout = (props) => {
+    return (MYJSCODEHERE);
+
+and add export default Customlayout;
+
+in the div element put {props.children} to render dynamic element given with props.
+
+In APP.js of the frontend
