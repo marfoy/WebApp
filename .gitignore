@@ -1,0 +1,6 @@
+frontend/gui/README.md
+frontend/gui/build/
+frontend/gui/node_modules/
+frontend/gui/package-lock.json
+frontend/gui/package.json
+frontend/gui/public/
